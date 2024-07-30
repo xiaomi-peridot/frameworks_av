@@ -1,6 +1,4 @@
-service vendor.drm-clearkey-service /vendor/bin/hw/android.hardware.drm-service-lazy.clearkey
-    oneshot
-    disabled
+service vendor.drm-clearkey-service /apex/com.android.hardware.drm.clearkey/bin/hw/android.hardware.drm-service.clearkey
     class hal
     user media
     group mediadrm drmrpc
